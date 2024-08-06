@@ -1,18 +1,6 @@
 /*
   AWS Linux Module to provision Instance
 */
-terraform {
-  cloud {
-    hostname = "konica-tfe-rep1.tf-support.hashicorpdemo.com"
-    organization = "Konica"
-
-    workspaces {
-      name = "test-lifecycle"
-    }
-  }
-  required_version = "1.8.1"
-}
-
 
 
 // EC2 Instance Configuration
