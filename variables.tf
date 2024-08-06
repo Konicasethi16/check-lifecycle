@@ -12,7 +12,7 @@ variable "account_id" {
 variable "region" {
   type        = string
   description = "AWS Region to provision VM"
-  default     = "ap-south-1"
+  default     = "eu-west-1"
 }
 
 variable "vpc_name" {
